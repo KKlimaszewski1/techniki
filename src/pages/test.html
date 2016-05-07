@@ -1,16 +1,27 @@
-<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+<div class="title-bar" data-responsive-toggle="mobile-menu" data-hide-for="medium">
     <button class="menu-icon" type="button" data-toggle></button>
     <div class="title-bar-title">Menu</div>
 </div>
 
-<div class="top-bar" id="example-menu">
+<div class="top-bar show-for-small-only" id="mobile-menu">
+    <ul class="vertical menu" data-accordion-menu>
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="informacje.html">Ciekawostki</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="strona.html">Markdown</a></li>
+        <li><a href="test.html">Testy</a></li>
+        <li><a href="kontakt.html">Kontak</a></li>
+    </ul>
+</div>
+
+<div class="top-bar hide-for-small-only">
     <div class="top-bar-left">
         <ul class="dropdown menu">
-            <li class="menu-text">Moje małe akwarium</li>
+            <li class="menu-text">Moje akwarium</li>
             <li><a href="index.html">Strona główna</a></li>
-            <li><a href="informacje.html">Baza informacji</a></li>
+            <li><a href="informacje.html">Ciekawostki</a></li>
             <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="strona.html">Gulp-markdown</a></li>
+            <li><a href="strona.html">Markdown</a></li>
             <li><a href="test.html">Testy</a></li>
         </ul>
     </div>
